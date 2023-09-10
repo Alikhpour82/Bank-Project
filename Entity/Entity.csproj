@@ -42,9 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.cs" />
+    <Compile Include="Card.cs" />
     <Compile Include="Contracts\IAccount.cs" />
+    <Compile Include="Contracts\ICard.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Contracts\ICustomer.cs" />
+    <Compile Include="Enums\CardState.cs" />
+    <Compile Include="Enums\CardType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
