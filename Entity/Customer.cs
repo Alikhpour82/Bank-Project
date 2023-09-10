@@ -5,7 +5,7 @@ namespace Entity
 {
     public class Customer : ICustomer
     {
-        #region
+        #region Fields
         public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
